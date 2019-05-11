@@ -13,6 +13,7 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
+        self.kind = invalid
       end
     end
   end

@@ -13,6 +13,7 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
+      end
     end
   end
 

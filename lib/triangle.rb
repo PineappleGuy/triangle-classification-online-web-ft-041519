@@ -7,7 +7,6 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
-        self.kind = :invalid
       end
     elsif side1 == side2 && side1 == side3
       self.kind = :equilateral
